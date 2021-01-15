@@ -1,0 +1,115 @@
+<template lang="pug">
+.home
+  plug(_name="module98" _src="https://template.owo.ink/1d56825274321d9c.owo")
+  img.main-bg(src="@|main.jpg|")
+  .conn
+    .w1000
+      .title 人民网北美中心分社记者报道集
+      .box.nopen
+        h3 人民日报社洛杉矶分社
+        ul
+          li
+            .box.nopen
+              h3 人民网美东公司美西公司
+              ul
+                li 章念生
+                li 章念生
+                li 章念生
+                li 章念生
+                li 章念生
+                li 章念生
+                li 章念生
+                li 章念生
+      .box.nopen
+        h3 人民日报社洛杉矶分社
+        ul
+          li 章念生
+          li 章念生
+          li 章念生
+          li 章念生
+          li 章念生
+          li 章念生
+          li 章念生
+          li 章念生
+  plug(_name="module35" _src="https://template.owo.ink/67375e27bd1ad8d9.owo")
+  plug(_name="module2" _src="https://template.owo.ink/0d0151b82309f7a7.owo")
+</template>
+
+<script>
+  module.exports = {
+    
+  }
+</script>
+
+
+<style lang="less">
+.main-bg {
+  display: block;
+  width: 100%;
+}
+.conn {
+  margin-top: 50px;
+}
+.title {
+  background-image: url('@|line.png|');
+  line-height: 60px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.box h3 {
+  line-height: 40px;
+  font-size: 20px;
+}
+.box ul {
+  margin-left: 20px;
+}
+.box {
+  margin-top: 10px;
+  li {
+    line-height: 28px;
+    font-size: 16px;
+  }
+  h3 {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  ul {
+    overflow: hidden;
+  }
+}
+.nopen {
+  h3 {
+    background-image: url('@|add.png|');
+  }
+  ul {
+    height: 0;
+  }
+}
+.open {
+  h3 {
+    background-image: url('@|jian.png|');
+  }
+  ul {
+    height: auto;
+  }
+}
+.open .nopen {
+  ul {
+    height: 0;
+  }
+  h3 {
+    background-image: url('@|add.png|');
+  }
+}
+.pagination-bar {
+  margin-top: 40px;
+}
+#copyright {
+  margin-top: 80px;
+}
+</style>
